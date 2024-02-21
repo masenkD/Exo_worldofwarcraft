@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+body {
+    font-family: "Roboto Regular";
+    margin: 0;
+}
+
+/* Configuration de la nav bar */
+
+header {
+    background-color: #90886d ;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 15px;
+}
+
+/* Configuration des blocs personnages */
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+a:hover {
+    color:#000000;
+}
+
+h2 {
+    position: absolute;
+    top: 220px;
+    left: 10px;
+}
+
+p {
+    text-align:left;
+    position: absolute;
+    top: 260px;
+    left: 10px;
+    right: 10px;
+
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.personnages {
+
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    top: 75px;  
+    position: relative;
+    margin-block-end: 50px;
+
+    -webkit-box-shadow: 4px 4px 15px -1px #000000; 
+    box-shadow: 4px 4px 15px -1px #000000;
+}
+
+/* Configuration des boutons */
+
+.btn {
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+.btn.btn-1 {
+    color: white;
+    background-color: #556b2f;
+    position: absolute;
+    left: 75px;
+    bottom: 10px;
+}
+
+.btn.btn-1:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn.btn-2 {
+    color: white;
+    background-color: #00fa9a;
+    position: absolute;
+    left: 75px;
+    bottom: 10px;
+}
+
+.btn.btn-2:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn.btn-3 {
+    color: white;
+    background-color: #ff69b4;
+    position: absolute;
+    left: 75px;
+    bottom: 10px;
+}
+
+.btn.btn-3:hover {
+    color: white;
+    background-color: black;
+}
